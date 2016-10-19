@@ -44,23 +44,7 @@ namespace HelloWorld
                     // Content-Type - string
                     // IsSecureConnection
                     // HasEntityBody
-
-                    // TODO: Request fields
-                    // Content-Encoding - Encoding
-                    // Host
-                    // Client certs - GetCertAsync, CertErrors
-                    // Cookies
-                    // KeepAlive
-                    // QueryString (parsed)
-                    // RequestTraceIdentifier
-                    // RawUrl
-                    // URI
-                    // IsWebSocketRequest
-                    // LocalEndpoint vs LocalIP & LocalPort
-                    // RemoteEndpoint vs RemoteIP & RemotePort
-                    // AcceptTypes string[]
-                    // ServiceName
-                    // TransportContext
+                  
 
                     // Response
                     byte[] bytes = Encoding.ASCII.GetBytes("Hello World: " + DateTime.Now);
